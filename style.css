@@ -10,7 +10,7 @@
 /* header */
 header{
     width:100%;
-    background-color: #f7c5c5;
+    
 }
 /* navbar */
 nav{
@@ -19,6 +19,7 @@ nav{
     align-items: center;
     padding: 5px 20px;
     font-size: 20px;
+    background-color: #f7c5c5;
 }
 /* logo */
 .logo{
@@ -37,7 +38,7 @@ nav ul li a{
     color:#460590d3;
 }
 /* login btn */
-.nav-btn{
+.nav-btn {
     background-color:#460590d3 ;
     color:#FFFFFF;
     border: none;
@@ -51,4 +52,88 @@ nav ul li a{
 }
 .nav-btn:hover{
     background-color: #640f54f9;
+}
+
+/* Hero Section */
+.hero {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 6%;
+    background-color: #FFFFFF;
+    gap: 30px;
+}
+
+/* Hero Content */
+.hero-content {
+    flex: 1;
+    max-width: 500px;
+}
+
+/* Subtitle */
+.hero-subtitle {
+    color: #6A1B9A;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Main Heading */
+.hero-content h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    color: #241338;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+    display: block;
+    color: #6A1B9A;
+}
+
+/* Description */
+.hero-description {
+    color: #55516A;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+/* Shop Button */
+.hero-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    padding: 14px 28px;
+    background-color: #6A1B9A;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background-color: #4A126B;
+}
+
+.hero-btn span {
+    font-size: 20px;
+}
+
+/* Hero Image */
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 520px;
+    height: 320px;
+    
 }
