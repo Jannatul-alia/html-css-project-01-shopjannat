@@ -61,7 +61,7 @@ nav ul li a{
     justify-content: space-between;
     align-items: center;
     padding: 40px 6%;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     gap: 30px;
 }
 
@@ -136,4 +136,159 @@ nav ul li a{
     max-width: 520px;
     height: 320px;
     
+}
+
+/* Shop Section */
+.shop-section {
+    padding: 60px 40px;
+    background-color: #FFFFFF;
+}
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.section-title p {
+    color: #6A1B9A;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.section-title h2 {
+    color: #241338;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section-title span {
+    color: #666078;
+    font-size: 15px;
+}
+
+/* Product Container */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+/* Product Card */
+.product-card {
+    background-color: #FFFFFF;
+    border: 1px solid #EEE5F5;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(50, 20, 70, 0.08);
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(106, 27, 154, 0.15);
+}
+
+/* Product Image */
+.product-image {
+    width: 100%;
+    height: 200px;
+    background-color: #F7F2FC;
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: 0.3s;
+}
+
+.product-card:hover .product-image img {
+    transform: scale(1.05);
+}
+
+/* Product Information */
+.product-info {
+    padding: 18px;
+}
+
+.product-info h3 {
+    color: #241338;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    color: #666078;
+    font-size: 13px;
+    line-height: 1.6;
+    min-height: 42px;
+    margin-bottom: 12px;
+}
+
+.product-info h4 {
+    color: #6A1B9A;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+/* Add to Cart Button */
+.product-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #6A1B9A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.product-btn:hover {
+    background-color: #4A126B;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 40px;
+    background-color: #F8F4FC;
+    text-align: center;
+}
+
+/* About Content */
+/* .about-content {
+    max-width: 650px;
+    margin: 0 auto;
+} */
+
+.about-content h2 {
+    color: #6A1B9A;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    color: #55516A;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+/* Learn More Button */
+.about-btn {
+    display: inline-block;
+    background-color: #6A1B9A;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.about-btn:hover {
+    background-color: #4A126B;
 }
