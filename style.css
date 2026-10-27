@@ -261,10 +261,6 @@ nav ul li a{
 }
 
 /* About Content */
-/* .about-content {
-    max-width: 650px;
-    margin: 0 auto;
-} */
 
 .about-content h2 {
     color: #6A1B9A;
@@ -292,3 +288,69 @@ nav ul li a{
 .about-btn:hover {
     background-color: #4A126B;
 }
+
+/* Contact Section Start */
+.contact-section {
+    padding: 50px 40px;
+    background-color: #F8F4FC;
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #6A1B9A;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    color: #55516A;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #DDD0E8;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #6A1B9A;
+}
+
+.contact-form textarea {
+    height: 120px;
+    /* resize: vertical; */
+}
+
+.contact-form button {
+    background-color: #6A1B9A;
+    color: #FFFFFF;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #4A126B;
+}
+
+/* Contact Section End */
